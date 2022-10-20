@@ -743,3 +743,326 @@ Recommended: 516.25
 [2022.10.20-11.16.24:725][  1]LogResonanceAudio: Display: Resonance Audio Listener is initialized
 [2022.10.20-11.16.24:818][  2]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
 [2022.10.20-11.18.15:528][374]LogDerivedDataCache: C:/Users/B00808310/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.035 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.20-11.28.33:779][220]LogSlate: Took 0.004902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.20-11.28.33:823][220]LogSlate: Took 0.004628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.20-11.28.44:248][733]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.20-11.28.44:257][733]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.20-11.28.44:261][734]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.20-11.29.03:243][976]LogContentBrowser: Attempting asset rename: NewFolder -> 3D_Models_FBX
+[2022.10.20-11.29.03:247][976]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.20-11.29.07:034][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\spear_FBX.fbx)
+[2022.10.20-11.29.07:054][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\spear_FBX.fbx
+[2022.10.20-11.29.07:059][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.14:843][384]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.20-11.29.14:993][384]LogMaterial: Display: Missing cached shadermap for lambert1 in PCD3D_SM5, Default, SM5 (DDC key hash: 860C52AE67E7F6751F84F1D428B3359D3FB61963), compiling. 
+[2022.10.20-11.29.15:001][384]LogFbx: Display: Triangulating static mesh pPlane1
+[2022.10.20-11.29.15:008][384]LogStaticMesh: Display: Building static mesh spear_FBX...
+[2022.10.20-11.29.15:038][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/spear_FBX.spear_FBX
+[2022.10.20-11.29.15:052][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:110][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\sword_FBX.fbx)
+[2022.10.20-11.29.15:116][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\sword_FBX.fbx
+[2022.10.20-11.29.15:119][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.15:120][384]LogFbx: Display: Triangulating static mesh pPlane1
+[2022.10.20-11.29.15:124][384]LogStaticMesh: Display: Building static mesh sword_FBX...
+[2022.10.20-11.29.15:152][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/sword_FBX.sword_FBX
+[2022.10.20-11.29.15:157][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:162][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\axe_1_FBX.fbx)
+[2022.10.20-11.29.15:168][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\axe_1_FBX.fbx
+[2022.10.20-11.29.15:172][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.15:173][384]LogFbx: Display: Triangulating static mesh pPlane2
+[2022.10.20-11.29.15:184][384]LogStaticMesh: Display: Building static mesh axe_1_FBX...
+[2022.10.20-11.29.15:214][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX
+[2022.10.20-11.29.15:215][384]LogStaticMesh: Warning: axe_1_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.20-11.29.15:220][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:220][384]FBXImport: Warning: axe_1_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.20-11.29.15:222][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\axe_2_FBX.fbx)
+[2022.10.20-11.29.15:228][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\axe_2_FBX.fbx
+[2022.10.20-11.29.15:232][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.15:235][384]LogFbx: Display: Triangulating static mesh pPlane2
+[2022.10.20-11.29.15:252][384]LogStaticMesh: Display: Building static mesh axe_2_FBX...
+[2022.10.20-11.29.15:284][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX
+[2022.10.20-11.29.15:286][384]LogStaticMesh: Warning: axe_2_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.20-11.29.15:286][384]LogStaticMesh: Warning: axe_2_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.20-11.29.15:290][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:290][384]FBXImport: Warning: axe_2_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.20-11.29.15:290][384]FBXImport: Warning: axe_2_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.20-11.29.15:293][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\dagger_FBX.fbx)
+[2022.10.20-11.29.15:298][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\dagger_FBX.fbx
+[2022.10.20-11.29.15:302][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.15:302][384]LogFbx: Display: Triangulating static mesh pPlane1
+[2022.10.20-11.29.15:305][384]LogStaticMesh: Display: Building static mesh dagger_FBX...
+[2022.10.20-11.29.15:334][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/dagger_FBX.dagger_FBX
+[2022.10.20-11.29.15:338][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:341][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\shield_FBX.fbx)
+[2022.10.20-11.29.15:346][384]LogFbx: Loading FBX Scene from C:\Users\B00808310\Documents\GitHub\VR-Assignment-MightyDucks\FBX\shield_FBX.fbx
+[2022.10.20-11.29.15:351][384]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.20-11.29.15:353][384]LogFbx: Display: Triangulating static mesh pPlane2
+[2022.10.20-11.29.15:366][384]LogStaticMesh: Display: Building static mesh shield_FBX...
+[2022.10.20-11.29.15:397][384]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Models_FBX/shield_FBX.shield_FBX
+[2022.10.20-11.29.15:398][384]LogStaticMesh: Warning: shield_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.20-11.29.15:398][384]LogStaticMesh: Warning: shield_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.20-11.29.15:402][384]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.20-11.29.15:402][384]FBXImport: Warning: shield_FBX has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.20-11.29.15:402][384]FBXImport: Warning: shield_FBX has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.20-11.29.15:406][384]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SLevelEditor [LevelEditor.cpp(210)].
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: ================================================
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Job execution time: average 2.21 s, max 2.21 s
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Job life time (pending + execution): average 2.28 s, max 2.28
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.28 s
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Effective parallelization: 0.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2022.10.20-11.29.17:909][633]LogShaderCompilers: Display: ================================================
+[2022.10.20-11.29.20:863][916]LogSlate: Window 'Message Log' being destroyed
+[2022.10.20-11.29.20:866][916]LogSlate: Window 'Message Log' being destroyed
+[2022.10.20-11.29.26:104][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX
+[2022.10.20-11.29.26:104][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX
+[2022.10.20-11.29.26:106][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_0
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_1
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_2
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX
+[2022.10.20-11.29.26:107][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_3
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_4
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX
+[2022.10.20-11.29.26:108][506]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_5
+[2022.10.20-11.29.26:983][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX
+[2022.10.20-11.29.26:983][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX
+[2022.10.20-11.29.26:985][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_6
+[2022.10.20-11.29.27:054][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX
+[2022.10.20-11.29.27:054][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX
+[2022.10.20-11.29.27:054][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_7
+[2022.10.20-11.29.27:065][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX
+[2022.10.20-11.29.27:065][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX
+[2022.10.20-11.29.27:065][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_8
+[2022.10.20-11.29.27:076][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX
+[2022.10.20-11.29.27:076][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX
+[2022.10.20-11.29.27:076][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_9
+[2022.10.20-11.29.27:087][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX
+[2022.10.20-11.29.27:087][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX
+[2022.10.20-11.29.27:087][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_10
+[2022.10.20-11.29.27:098][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX
+[2022.10.20-11.29.27:098][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX
+[2022.10.20-11.29.27:098][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_11
+[2022.10.20-11.29.27:197][604]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:745][849]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:769][852]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:786][854]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:811][857]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:828][859]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:852][862]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:869][864]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:886][866]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:920][870]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:945][873]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:961][875]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:978][877]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.29:995][879]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:044][885]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:094][891]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:127][895]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:161][899]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:244][909]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:979][943]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.30:996][945]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.31:041][949]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:110][195]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:210][207]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:226][209]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:310][219]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:327][221]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:344][223]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:360][225]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:393][229]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:418][232]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:485][240]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:501][242]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:518][244]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:535][246]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:635][258]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:652][260]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:668][262]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.33:710][267]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:026][305]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:110][315]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:143][319]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:185][324]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:210][327]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:235][330]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:260][333]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:318][340]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:410][351]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.34:687][383]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.37:756][746]Cmd: DELETE
+[2022.10.20-11.29.37:756][746]Cmd: ACTOR DELETE
+[2022.10.20-11.29.37:769][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.20-11.29.37:777][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.10.20-11.29.37:778][746]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.10.20-11.29.37:782][747]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.38:971][886]Cmd: DELETE
+[2022.10.20-11.29.38:971][886]Cmd: ACTOR DELETE
+[2022.10.20-11.29.38:972][886]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.20-11.29.38:977][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.10.20-11.29.38:979][886]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.10.20-11.29.38:982][887]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.41:543][187]Cmd: DELETE
+[2022.10.20-11.29.41:543][187]Cmd: ACTOR DELETE
+[2022.10.20-11.29.41:544][187]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.20-11.29.41:549][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.10.20-11.29.41:551][187]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.10.20-11.29.41:555][188]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:094][468]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:111][470]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:127][472]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:236][485]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:270][489]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:286][491]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:303][493]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:452][511]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:560][524]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:660][536]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:710][542]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.44:855][558]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.45:637][652]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.20-11.29.50:279][205]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.50:338][212]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.50:396][219]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.50:530][235]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.50:779][264]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.29.57:640][ 79]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.20-11.30.00:430][411]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:515][421]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:547][425]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:564][427]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:581][429]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:614][433]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:630][435]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:647][437]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:672][440]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:689][442]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:705][444]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:772][452]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:890][466]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.00:915][469]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.01:041][483]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.03:094][729]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.03:219][744]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.03:536][781]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.05:707][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.05:831][ 56]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.05:964][ 72]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:065][ 84]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:098][ 88]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:148][ 94]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:182][ 98]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:215][102]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:240][105]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:265][108]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:290][111]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:306][113]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:331][116]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:357][119]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:382][122]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:399][124]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:423][127]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:440][129]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:465][132]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:482][134]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:498][136]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:515][138]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:532][140]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:548][142]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:648][154]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:665][156]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:682][158]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:707][161]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:723][163]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:740][165]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:757][167]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:823][175]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:840][177]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.06:857][179]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:552][207]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:568][209]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:585][211]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:602][213]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:627][216]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:643][218]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:668][221]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:702][225]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:735][229]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.07:837][240]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:114][511]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:147][515]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:172][518]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:197][521]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:214][523]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:240][526]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:281][531]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:431][549]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:672][578]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.10:807][593]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:232][644]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:257][647]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:274][649]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:299][652]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:324][655]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:424][667]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.11:566][684]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2022.10.20-11.30.14:202][997]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.20-11.31.19:129][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.10.20-11.31.19:148][674]LogPackageLocalizationCache: Processed 28 localized package path(s) for 1 prioritized culture(s) in 0.003223 seconds
+[2022.10.20-11.31.19:166][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1
+[2022.10.20-11.31.19:167][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/VRTemplateMap_Auto1DCAB4A1E4D350235A41535B855DF6F62.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap'
+[2022.10.20-11.31.19:193][674]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.071
+[2022.10.20-11.31.19:193][674]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2022.10.20-11.31.19:197][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/spear_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:246][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/spear_FBX.spear_FBX]
+[2022.10.20-11.31.19:246][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/spear_FBX]
+[2022.10.20-11.31.19:258][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/spear_FBX_Auto1
+[2022.10.20-11.31.19:258][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/spear_FBX_Auto1BC75FD494DB531B1D68B6BAD6129778A.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/spear_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:279][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/sword_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:305][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/sword_FBX.sword_FBX]
+[2022.10.20-11.31.19:305][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/sword_FBX]
+[2022.10.20-11.31.19:312][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/sword_FBX_Auto1
+[2022.10.20-11.31.19:312][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/sword_FBX_Auto10AFDF6DC436ACE0786990A9494585E31.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/sword_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:332][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/axe_1_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:362][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/axe_1_FBX.axe_1_FBX]
+[2022.10.20-11.31.19:362][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/axe_1_FBX]
+[2022.10.20-11.31.19:369][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/axe_1_FBX_Auto1
+[2022.10.20-11.31.19:369][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/axe_1_FBX_Auto1500C2717436E04222FB37E9428B22D02.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/axe_1_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:389][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/axe_2_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:414][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/axe_2_FBX.axe_2_FBX]
+[2022.10.20-11.31.19:414][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/axe_2_FBX]
+[2022.10.20-11.31.19:421][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/axe_2_FBX_Auto1
+[2022.10.20-11.31.19:421][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/axe_2_FBX_Auto17CF61E9B426CDCEF854A80909226A766.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/axe_2_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:442][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/dagger_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:468][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/dagger_FBX.dagger_FBX]
+[2022.10.20-11.31.19:468][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/dagger_FBX]
+[2022.10.20-11.31.19:475][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/dagger_FBX_Auto1
+[2022.10.20-11.31.19:475][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/dagger_FBX_Auto101DFC7004F30993FEC9B229444DC2BE4.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/dagger_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:496][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3D_Models_FBX/shield_FBX] ([1] browsable assets)...
+[2022.10.20-11.31.19:521][674]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3D_Models_FBX/shield_FBX.shield_FBX]
+[2022.10.20-11.31.19:521][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/3D_Models_FBX/shield_FBX]
+[2022.10.20-11.31.19:528][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3D_Models_FBX/shield_FBX_Auto1
+[2022.10.20-11.31.19:528][674]LogSavePackage: Moving '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/shield_FBX_Auto1092B366D4BF71890FA7115A1E6E153CF.tmp' to '../../../../../../Users/B00808310/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/3D_Models_FBX/shield_FBX_Auto1.uasset'
+[2022.10.20-11.31.19:544][674]LogFileHelpers: Auto-saving content packages took 0.351
