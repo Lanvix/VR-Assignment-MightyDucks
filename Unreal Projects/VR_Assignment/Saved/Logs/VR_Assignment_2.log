@@ -1090,3 +1090,154 @@ Make sure 'VRPawn_C' has been compiled for  Set Damage
 
 [2022.10.27-10.46.52:410][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
 [2022.10.27-10.46.52:410][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.27-10.55.30:982][648]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.10.27-10.55.31:233][648]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.10.27-10.55.31:344][648]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2022.10.27-10.55.31:347][648]LogTurnkeySupport: Display: Adding device menu item for SHARED-4287GR3
+[2022.10.27-10.55.31:349][648]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/VR_Assignment.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Intermediate/TurnkeyReport_1.log" -log="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Intermediate/TurnkeyLog_1.log" -project="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/VR_Assignment.uproject"  -Device=Win64@SHARED-4287GR3'
+[2022.10.27-10.55.31:350][648]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/VR_Assignment.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Intermediate/TurnkeyReport_1.log" -log="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Intermediate/TurnkeyLog_1.log" -project="C:/Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/VR_Assignment.uproject"  -Device=Win64@SHARED-4287GR3" -nocompile ]
+[2022.10.27-10.55.31:646][660]LogTurnkeySupport: Completed device detection: Code = 0
+[2022.10.27-10.56.01:717][949]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.27-10.56.01:717][949]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.27-10.56.16:229][672]LogContentBrowser: Attempting asset rename: VRPawn -> VR_char
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:ReceiveBeginPlay' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_TriggerAxisLeft_K2Node_InputAxisEvent_1' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_TriggerAxisRight_K2Node_InputAxisEvent_3' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_MovementAxisLeft_X_K2Node_InputAxisEvent_4' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_MovementAxisRight_Y_K2Node_InputAxisEvent_5' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_MovementAxisRight_X_K2Node_InputAxisEvent_6' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:UpdateRoomScaleMovement' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:UpdateCapsuleHeight' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_MovementAxisLeft_X_K2Node_InputAxisEvent_7' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:InpAxisEvt_MovementAxisLeft_Y_K2Node_InputAxisEvent_8' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:OnLanded' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:UserConstructionScript' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:StartTeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:TeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:IsValidTeleportLocation' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:433][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:EndTeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:Get Grab Component Near Motion Controller' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:IsAxisGreaterThanDeadzone' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:SnapTurn' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.SKEL_VR_char_C:ToggleMenu' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:OnLanded' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:ReceiveBeginPlay' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:StartTeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:TeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:IsValidTeleportLocation' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:EndTeleportTrace' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:Get Grab Component Near Motion Controller' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:IsAxisGreaterThanDeadzone' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:SnapTurn' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:434][672]LogMetaData: Removing '/Game/Migrated/VR_char.VR_char_C:ToggleMenu' ref from Metadata '/Game/Migrated/VRPawn.PackageMetaData'
+[2022.10.27-10.56.16:545][672]LogPackageLocalizationCache: Processed 28 localized package path(s) for 1 prioritized culture(s) in 0.022841 seconds
+[2022.10.27-10.56.16:694][672]LogSavePackage: Moving output files for package: /Game/Migrated/VR_char
+[2022.10.27-10.56.16:695][672]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/VR_charDBC0E7534CD777E2AAE84985F5F81C1B.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/VR_char.uasset'
+[2022.10.27-10.56.16:804][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.10.27-10.56.16:846][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.10.27-10.56.16:886][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.10.27-10.56.16:906][672]AssetCheck: New page: Asset Save: VR_char
+[2022.10.27-10.56.16:911][672]LogContentValidation: Display: Validating Blueprint /Game/Migrated/VR_char.VR_char
+[2022.10.27-10.56.28:300][825]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5003ms] waiting for h/w. InstanceID=1
+[2022.10.27-10.56.28:300][825]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20988
+[2022.10.27-10.56.28:852][855]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f8cb2037-33c8-4d6f-b87d-719ad40f7dfb}, Name=DELL S2722QC (NVIDIA High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=558.30
+[2022.10.27-10.56.28:853][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.27-10.56.28:873][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.27-10.57.49:462][234]BlueprintLog: New page: Compile AirBomb
+[2022.10.27-10.57.49:467][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Deal Damage . Please refresh node or break links to remove pin.
+[2022.10.27-10.57.49:467][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Deal Damage . Please refresh node or break links to remove pin.
+[2022.10.27-10.57.49:467][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] In use pin  Target  no longer exists on node  Deal Damage . Please refresh node or break links to remove pin.
+[2022.10.27-10.57.49:467][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Could not find a function named "Deal Damage" in 'VRPawn_C'.
+Make sure 'VRPawn_C' has been compiled for  Deal Damage
+[2022.10.27-10.57.49:468][234]LogBlueprint: Warning: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Could not find a variable named "Damage" in 'VRPawn_C'.
+Make sure 'VRPawn_C' has been compiled for  Set Damage
+[2022.10.27-10.57.49:468][234]LogBlueprint: Warning: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Could not find a variable named "Damage" in 'VRPawn_C'.
+Make sure 'VRPawn_C' has been compiled for  Set Damage
+[2022.10.27-10.57.49:468][234]LogBlueprint: Warning: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Could not find a variable named "Damage" in 'VRPawn_C'.
+Make sure 'VRPawn_C' has been compiled for  Set Damage
+[2022.10.27-10.57.49:471][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] This blueprint (self) is not a VRPawn_C, therefore ' Target ' must have a connection.
+[2022.10.27-10.57.49:471][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] This blueprint (self) is not a VRPawn_C, therefore ' Target ' must have a connection.
+[2022.10.27-10.57.49:471][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] This blueprint (self) is not a VRPawn_C, therefore ' Target ' must have a connection.
+[2022.10.27-10.57.49:471][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] This blueprint (self) is not a VRPawn_C, therefore ' Target ' must have a connection.
+[2022.10.27-10.57.49:473][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Variable node  Set Damage  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2022.10.27-10.57.49:473][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] The property associated with  Damage  could not be found in '/Game/Migrated/AirBomb.AirBomb_C'
+[2022.10.27-10.57.49:473][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Variable node  Set Damage  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2022.10.27-10.57.49:474][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] The property associated with  Damage  could not be found in '/Game/Migrated/AirBomb.AirBomb_C'
+[2022.10.27-10.57.49:474][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] Variable node  Set Damage  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2022.10.27-10.57.49:474][234]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] The property associated with  Damage  could not be found in '/Game/Migrated/AirBomb.AirBomb_C'
+[2022.10.27-10.57.49:549][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.10.27-10.57.49:657][234]LogSavePackage: Moving output files for package: /Game/Migrated/AirBomb
+[2022.10.27-10.57.49:666][234]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/AirBomb534ED40A449F68EC4EC32B99183BEFF5.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/AirBomb.uasset'
+[2022.10.27-10.57.49:695][234]AssetCheck: New page: Asset Save: AirBomb
+[2022.10.27-10.57.49:696][234]LogContentValidation: Display: Validating Blueprint /Game/Migrated/AirBomb.AirBomb
+[2022.10.27-10.58.10:622][234]LogEditorTransaction: Undo Create Matching Function
+[2022.10.27-10.58.11:084][240]LogEditorTransaction: Undo Create Pin Link
+[2022.10.27-10.58.11:429][251]LogEditorTransaction: Undo Create Pin Link
+[2022.10.27-10.58.11:776][264]LogEditorTransaction: Undo Create Pin Link
+[2022.10.27-10.58.12:129][277]LogEditorTransaction: Undo Move Node
+[2022.10.27-10.58.12:506][291]LogEditorTransaction: Undo Delete current selection
+[2022.10.27-11.02.03:728][355]BlueprintLog: New page: Compile AirBomb
+[2022.10.27-11.02.03:733][355]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To VR_char  to imply a specific type.
+[2022.10.27-11.02.03:734][355]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\AirBomb.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.10.27-11.02.03:806][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.10.27-11.02.03:902][355]LogSavePackage: Moving output files for package: /Game/Migrated/AirBomb
+[2022.10.27-11.02.03:909][355]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/AirBombB319328647AA0D3694288C9DDA8A43F0.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/AirBomb.uasset'
+[2022.10.27-11.02.03:931][355]AssetCheck: New page: Asset Save: AirBomb
+[2022.10.27-11.02.03:931][355]LogContentValidation: Display: Validating Blueprint /Game/Migrated/AirBomb.AirBomb
+[2022.10.27-11.02.11:113][712]BlueprintLog: New page: Compile AirBomb
+[2022.10.27-11.02.11:186][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.10.27-11.02.11:387][712]LogSavePackage: Moving output files for package: /Game/Migrated/AirBomb
+[2022.10.27-11.02.11:395][712]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/AirBomb5339BB904A6E64E23FF1DA98E39D5863.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/AirBomb.uasset'
+[2022.10.27-11.02.11:422][712]AssetCheck: New page: Asset Save: AirBomb
+[2022.10.27-11.02.11:422][712]LogContentValidation: Display: Validating Blueprint /Game/Migrated/AirBomb.AirBomb
+[2022.10.27-11.02.15:912][919]BlueprintLog: New page: Compile VR_char
+[2022.10.27-11.02.16:058][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.10.27-11.03.00:547][894]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\LaunchPad.uasset: [Compiler] Can't connect pins  Target  and  As VRPawn : Character Object Reference is not compatible with VRPawn Object Reference.
+[2022.10.27-11.03.00:548][894]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\LaunchPad.uasset: [Compiler] Can't connect pins  Target  and  As VRPawn : Character Object Reference is not compatible with VRPawn Object Reference.
+[2022.10.27-11.03.00:548][894]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\LaunchPad.uasset: [Compiler] Can't connect pins  As VRPawn  and  Target : VRPawn Object Reference is not compatible with Character Object Reference.
+[2022.10.27-11.03.00:555][894]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Migrated/LaunchPad.LaunchPad
+[2022.10.27-11.03.00:556][894]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.27-11.03.38:493][220]BlueprintLog: New page: Compile LaunchPad
+[2022.10.27-11.03.38:524][220]LogBlueprint: Error: [AssetLog] C:\Users\B00837446\Documents\GitHub\VR-Assignment-MightyDucks\Unreal Projects\VR_Assignment\Content\Migrated\LaunchPad.uasset: [Compiler] This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2022.10.27-11.03.38:596][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.10.27-11.03.38:670][220]LogSavePackage: Moving output files for package: /Game/Migrated/LaunchPad
+[2022.10.27-11.03.38:679][220]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LaunchPad24EA621543AA77E0A05578AAF758719B.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/LaunchPad.uasset'
+[2022.10.27-11.03.38:703][220]AssetCheck: New page: Asset Save: LaunchPad
+[2022.10.27-11.03.38:703][220]LogContentValidation: Display: Validating Blueprint /Game/Migrated/LaunchPad.LaunchPad
+[2022.10.27-11.03.40:381][327]LogEditorTransaction: Undo Delete current selection
+[2022.10.27-11.03.46:902][661]BlueprintLog: New page: Compile LaunchPad
+[2022.10.27-11.03.46:966][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.10.27-11.03.47:065][661]LogSavePackage: Moving output files for package: /Game/Migrated/LaunchPad
+[2022.10.27-11.03.47:072][661]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LaunchPadE236CB5B41087D97B95F02B475982344.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/LaunchPad.uasset'
+[2022.10.27-11.03.47:092][661]AssetCheck: New page: Asset Save: LaunchPad
+[2022.10.27-11.03.47:092][661]LogContentValidation: Display: Validating Blueprint /Game/Migrated/LaunchPad.LaunchPad
+[2022.10.27-11.05.10:878][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.10.27-11.05.10:880][309]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Migrated/VRTemplateMap' took 0.045
+[2022.10.27-11.05.10:883][309]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Migrated/VR_char] ([2] browsable assets)...
+[2022.10.27-11.05.10:898][309]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Migrated/VR_char.VR_char]
+[2022.10.27-11.05.10:898][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/Migrated/VR_char]
+[2022.10.27-11.05.10:977][309]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Migrated/VR_char_Auto1
+[2022.10.27-11.05.10:977][309]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/VR_char_Auto1BB4E9A93442C0158CBF994A23AA2692D.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Migrated/VR_char_Auto1.uasset'
+[2022.10.27-11.05.10:990][309]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Migrated/AirBomb] ([2] browsable assets)...
+[2022.10.27-11.05.10:995][309]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Migrated/AirBomb.AirBomb]
+[2022.10.27-11.05.10:995][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/Migrated/AirBomb]
+[2022.10.27-11.05.11:010][309]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Migrated/AirBomb_Auto1
+[2022.10.27-11.05.11:010][309]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/AirBomb_Auto15BDC823647FF93866313C2A8DB92A29E.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Migrated/AirBomb_Auto1.uasset'
+[2022.10.27-11.05.11:019][309]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Migrated/LaunchPad] ([2] browsable assets)...
+[2022.10.27-11.05.11:019][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/Migrated/LaunchPad]
+[2022.10.27-11.05.11:025][309]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Migrated/LaunchPad_Auto1
+[2022.10.27-11.05.11:025][309]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LaunchPad_Auto12BA7FA21419CECBCD748CD8AA1EDAFAE.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Migrated/LaunchPad_Auto1.uasset'
+[2022.10.27-11.05.11:032][309]LogFileHelpers: Auto-saving content packages took 0.152
+[2022.10.27-11.05.40:679][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.10.27-11.05.40:803][920]LogSavePackage: Moving output files for package: /Game/Migrated/VR_char
+[2022.10.27-11.05.40:809][920]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/VR_charDA142A5144ACE6D91DFF8DB34E4FD5DC.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/VR_char.uasset'
+[2022.10.27-11.05.40:826][920]LogSavePackage: Moving output files for package: /Game/Migrated/AirBomb
+[2022.10.27-11.05.40:832][920]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/AirBomb414F33B14B39E0DE3493D9A4D3F131D9.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/AirBomb.uasset'
+[2022.10.27-11.05.40:846][920]LogSavePackage: Moving output files for package: /Game/Migrated/LaunchPad
+[2022.10.27-11.05.40:851][920]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LaunchPadB0A3847E43E8C4BD486E37B941BB4833.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Migrated/LaunchPad.uasset'
+[2022.10.27-11.05.40:871][920]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.27-11.05.40:871][920]LogContentValidation: Display: Validating Blueprint /Game/Migrated/VR_char.VR_char
+[2022.10.27-11.05.40:871][920]LogContentValidation: Display: Validating Blueprint /Game/Migrated/LaunchPad.LaunchPad
+[2022.10.27-11.05.40:871][920]LogContentValidation: Display: Validating Blueprint /Game/Migrated/AirBomb.AirBomb
