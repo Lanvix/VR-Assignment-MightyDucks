@@ -1410,3 +1410,22 @@ Recommended: 516.25
 [2022.11.17-11.12.51:089][763]LogContentValidation: Display: Validating Blueprint /Game/Player/VR_char.VR_char
 [2022.11.17-11.12.51:089][763]LogContentValidation: Display: Validating World /Game/Level/LevelDraft.LevelDraft
 [2022.11.17-11.12.51:089][763]LogContentValidation: Display: Validating Blueprint /Game/SwordDamage.SwordDamage
+[2022.11.17-11.15.18:824][217]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wind/WindUpDraft.WindUpDraft
+[2022.11.17-11.15.18:824][217]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.17-11.16.01:841][153]BlueprintLog: New page: Compile WindUpDraft
+[2022.11.17-11.16.01:891][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.11.17-11.16.41:858][911]BlueprintLog: New page: Compile WindUpDraft
+[2022.11.17-11.16.41:908][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.11.17-11.22.49:694][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.11.17-11.22.49:721][521]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/LevelDraft_Auto1
+[2022.11.17-11.22.49:722][521]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LevelDraft_Auto10FCFDD364E8A40869B37C6A13A330AD4.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Level/LevelDraft_Auto1.umap'
+[2022.11.17-11.22.49:727][521]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/LevelDraft' took 0.072
+[2022.11.17-11.22.49:727][521]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2022.11.17-11.22.49:728][521]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wind/WindUpDraft] ([2] browsable assets)...
+[2022.11.17-11.22.49:728][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wind/WindUpDraft]
+[2022.11.17-11.22.49:734][521]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Wind/WindUpDraft_Auto1
+[2022.11.17-11.22.49:735][521]LogSavePackage: Moving '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/WindUpDraft_Auto165D4E467487C71B9A4BAB8AE4FFD9411.tmp' to '../../../../../../Users/B00837446/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Wind/WindUpDraft_Auto1.uasset'
+[2022.11.17-11.22.49:736][521]LogFileHelpers: Auto-saving content packages took 0.010
+[2022.11.17-12.08.13:811][655]LogDerivedDataCache: C:/Users/B00837446/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.229 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.17-13.08.15:525][404]LogDerivedDataCache: C:/Users/B00837446/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.179 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.17-14.08.14:926][757]LogDerivedDataCache: C:/Users/B00837446/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.580 and deleted 0 file(s) with total size 0 MiB.
