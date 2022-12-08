@@ -2580,3 +2580,167 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.12.08-13.03.51:158][224]LogViewport: Scene viewport resized to 1013x792, mode Windowed.
 [2022.12.08-13.03.51:591][224]LogViewport: Scene viewport resized to 1013x439, mode Windowed.
 [2022.12.08-13.03.51:626][224]LogViewport: Scene viewport resized to 1526x792, mode Windowed.
+[2022.12.08-13.08.12:257][160]LogViewport: Scene viewport resized to 1013x792, mode Windowed.
+[2022.12.08-13.08.12:918][160]LogViewport: Scene viewport resized to 1013x439, mode Windowed.
+[2022.12.08-13.08.18:431][188]LogViewport: Scene viewport resized to 1526x792, mode Windowed.
+[2022.12.08-13.08.28:468][730]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-NEI8OGR
+[2022.12.08-13.08.29:587][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.08-13.08.29:587][851]PIE: New page: PIE session: LevelDraft (8 Dec 2022, 13:08:29)
+[2022.12.08-13.08.29:587][851]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_LevelDraft
+[2022.12.08-13.08.29:607][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019848s)
+[2022.12.08-13.08.29:607][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/LevelDraft.LevelDraft to /Game/Level/UEDPIE_0_LevelDraft.LevelDraft (0.019926s)
+[2022.12.08-13.08.29:607][851]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.08-13.08.29:607][851]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.08-13.08.29:607][851]LogAIModule: Creating AISystem for world LevelDraft
+[2022.12.08-13.08.29:608][851]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2022.12.08-13.08.29:673][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.12.08-13.08.29:674][851]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.08-13.08.29:674][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.08-13.08.29:674][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.08-13.08.29:675][851]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.12.08-13.08.29:675][851]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.12.08-13.08.29:675][851]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.08-13.08.29:677][851]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.08-13.08.29:694][851]LogAudioMixer: Display: Using Audio Hardware Device PL2483H (NVIDIA High Definition Audio)
+[2022.12.08-13.08.29:695][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.08-13.08.29:695][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.08-13.08.29:695][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.08-13.08.29:696][851]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.12.08-13.08.29:696][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.12.08-13.08.29:697][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.12.08-13.08.29:697][851]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.12.08-13.08.29:697][851]LogInit: FAudioDevice initialized.
+[2022.12.08-13.08.29:697][851]LogAudio: Display: Audio Device (ID: 8) registered with world 'LevelDraft'.
+[2022.12.08-13.08.29:708][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.08-13.08.29:824][851]LogLoad: Game class is 'VRGameMode_C'
+[2022.12.08-13.08.29:833][851]LogWorld: Bringing World /Game/Level/UEDPIE_0_LevelDraft.LevelDraft up for play (max tick rate 0) at 2022.12.08-13.08.29
+[2022.12.08-13.08.29:835][851]LogWorld: Bringing up level for play took: 0.010899
+[2022.12.08-13.08.29:837][851]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.12.08-13.08.29:838][851]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.12.08-13.08.29:839][851]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2022.12.08-13.08.29:841][851]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2022.12.08-13.08.29:844][851]LogBehaviorTree: Warning: MageTree::ResetStateMage[0]> Failed to find key 'MageState' in BB asset BlackboardData /Game/1-GoblinDef/GoblinBB.GoblinBB. BB Key Selector will be set to 'Invalid'
+[2022.12.08-13.08.29:844][851]LogBehaviorTree: Warning: MageTree::ResetStateMage[9]> Failed to find key 'MageState' in BB asset BlackboardData /Game/1-GoblinDef/GoblinBB.GoblinBB. BB Key Selector will be set to 'Invalid'
+[2022.12.08-13.08.29:847][851]Cmd: vr.PixelDensity 1.0
+[2022.12.08-13.08.29:847][851]vr.PixelDensity = "1"
+[2022.12.08-13.08.29:854][851]PIE: Server logged in
+[2022.12.08-13.08.29:857][851]PIE: Play in editor total start time 0.271 seconds.
+[2022.12.08-13.08.29:874][851]LogViewport: Scene viewport resized to 1920x1009, mode Windowed.
+[2022.12.08-13.08.30:465][851]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.12.08-13.08.30:673][853]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2022.12.08-13.08.34:517][872]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.34:517][872]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.38:436][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.38:436][901]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.42:284][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.42:284][ 41]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.46:273][327]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.46:273][327]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.50:284][615]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.50:284][615]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.54:282][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.54:282][902]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.58:277][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.08.58:277][189]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.02:272][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.02:272][476]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.06:283][764]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.06:283][764]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.10:272][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.10:272][ 49]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.14:284][337]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.14:284][337]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.18:281][624]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.18:282][624]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.22:277][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.22:277][911]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.26:274][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.26:274][198]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.30:285][486]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.30:285][486]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.34:273][769]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.34:273][769]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.38:272][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.38:272][ 56]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.42:283][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.42:283][344]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.46:279][631]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.46:279][631]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.50:276][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.50:276][918]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.54:272][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.54:273][205]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.58:282][493]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.09.58:282][493]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.02:277][780]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.02:277][780]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.06:284][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.06:284][ 68]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.10:282][355]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.10:282][355]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.14:278][642]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.14:279][642]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.18:284][930]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.18:285][930]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.22:276][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.22:276][217]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.26:286][505]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.26:286][505]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.30:283][792]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.30:283][792]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.34:275][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.34:275][ 75]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.38:272][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.38:272][362]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.42:284][650]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.42:284][650]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.46:277][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.46:277][937]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.50:274][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.50:274][224]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.54:284][512]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Map_Find_Value_1". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.54:285][512]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set FightingGrade Graph:  UpdateDebugWidgets Function:  Update Debug Widgets Blueprint:  GonlinDirector
+[2022.12.08-13.10.58:797][836]LogActorComponent: Error: May not destroy component SceneComponent /Game/Level/UEDPIE_0_LevelDraft.LevelDraft:PersistentLevel.Fireball_C_0.DefaultSceneRoot owned by Fireball_C /Game/Level/UEDPIE_0_LevelDraft.LevelDraft:PersistentLevel.Fireball_C_0.
+[2022.12.08-13.10.58:797][836]PIE: Warning: Fireball_C_0.Box has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.12.08-13.11.02:678][115]LogActorComponent: Error: May not destroy component SceneComponent /Game/Level/UEDPIE_0_LevelDraft.LevelDraft:PersistentLevel.Fireball_C_1.DefaultSceneRoot owned by Fireball_C /Game/Level/UEDPIE_0_LevelDraft.LevelDraft:PersistentLevel.Fireball_C_1.
+[2022.12.08-13.11.02:678][115]PIE: Warning: Fireball_C_1.Box has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.12.08-13.11.20:141][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.08-13.11.20:141][493]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_LevelDraft
+[2022.12.08-13.11.20:173][493]LogSlate: Window 'VR_Assignment Preview [NetMode: Standalone]  (64-bit/SM5) OpenXR Oculus (1.79.0)' being destroyed
+[2022.12.08-13.11.20:175][493]LogWorld: UWorld::CleanupWorld for LevelDraft, bSessionEnded=true, bCleanupResources=true
+[2022.12.08-13.11.20:176][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.08-13.11.20:187][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.08-13.11.20:194][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.08-13.11.20:251][493]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.08-13.11.20:251][493]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.12.08-13.11.20:251][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.08-13.11.20:253][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.08-13.11.20:260][493]LogSlate: Slate User Unregistered.  User Index 8
+[2022.12.08-13.11.20:260][493]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2022.12.08-13.11.20:262][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.12.08-13.11.20:409][494]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.12.08-13.11.22:280][692]LogSlate: Window 'Message Log' being destroyed
+[2022.12.08-13.11.22:288][692]LogSlate: Window 'Message Log' being destroyed
+[2022.12.08-13.16.24:696][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.12.08-13.16.24:737][733]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/LevelDraft_Auto1
+[2022.12.08-13.16.24:738][733]LogSavePackage: Moving '../../../../../../Users/games/OneDrive/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LevelDraft_Auto143908ED94F55F3BCBA491A8C92890124.tmp' to '../../../../../../Users/games/OneDrive/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/Autosaves/Game/Level/LevelDraft_Auto1.umap'
+[2022.12.08-13.16.24:743][733]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/LevelDraft' took 0.115
+[2022.12.08-13.16.24:743][733]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.115
+[2022.12.08-13.32.08:711][678]LogViewport: Scene viewport resized to 1013x792, mode Windowed.
+[2022.12.08-13.32.08:752][678]LogViewport: Scene viewport resized to 1013x439, mode Windowed.
+[2022.12.08-13.32.09:234][678]LogViewport: Scene viewport resized to 1526x792, mode Windowed.
+[2022.12.08-13.32.32:231][823]LogSlate: Window 'Goblin2' being destroyed
+[2022.12.08-13.33.02:221][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.12.08-13.33.03:991][ 99]LogSlate: Window 'Save Content' being destroyed
+[2022.12.08-13.33.04:088][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.12.08-13.33.04:124][ 99]LogSavePackage: Moving output files for package: /Game/Level/LevelDraft
+[2022.12.08-13.33.04:125][ 99]LogSavePackage: Moving '../../../../../../Users/games/OneDrive/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Saved/LevelDraft0098ADD246E5C2B78D9B5D9518A090FA.tmp' to '../../../../../../Users/games/OneDrive/Documents/GitHub/VR-Assignment-MightyDucks/Unreal Projects/VR_Assignment/Content/Level/LevelDraft.umap'
+[2022.12.08-13.33.04:134][ 99]LogFileHelpers: Saving map 'LevelDraft' took 0.097
+[2022.12.08-13.33.04:158][ 99]AssetCheck: New page: Asset Save: LevelDraft
+[2022.12.08-13.33.04:158][ 99]LogContentValidation: Display: Validating World /Game/Level/LevelDraft.LevelDraft
